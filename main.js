@@ -8,7 +8,7 @@ function updateBox() {
 
     box.style.width = width ? `${width}%` : '30%';
     box.style.height = height ? `${height}%` : '40%';
-    box.style.backgroundColor = color ? color : randomColor;
+    box.style.backgroundColor = color ? color : 'color';
     box.style.borderRadius = borderRadius ? `${borderRadius}px` : '50px';
 }
 
@@ -19,5 +19,5 @@ function reset() {
     box.style.width = '30%';
     box.style.height = '40%';
     box.style.backgroundColor = 'blue';
-    box.style.borderRadius = '50px';
+    box.style.borderRadius = '10px';
 }
