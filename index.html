@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحكم في المربع</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+<div class="parent">
+    <div id="box"></div>
+
+    <label for="width"> Width:</label>
+    <input type="number" id="width" placeholder>
+
+    <label for="height">Height</label>
+    <input type="number" id="height" placeholder>
+
+    <label for="color"> Color:</label>
+    <input type="color" id="color" value="#0000ff">
+
+    <label for="borderRadius">BorderRadius:</label>
+    <input type="number" id="borderRadius" placeholder>
+
+    <button onclick="updateBox()"> Update</button>
+    <button onclick="reset()"> resetOriginalBox</button>
+
+</div>
+  <script src="main.js"></script>
+
+</body>
+</html>

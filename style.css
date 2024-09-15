@@ -1,0 +1,11 @@
+#box {
+    width: 30%;
+    height: 40%;
+    border: 50px solid blue;
+    border-radius: 10px;
+}
+
+.parent{
+  padding: 250px;
+  padding-right: 80px;
+}
