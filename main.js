@@ -5,11 +5,11 @@ function updateBox() {
     const color = document.getElementById('color').value;
     const borderRadius = document.getElementById('borderRadius').value;
 
-  
+
     box.style.width = width ? `${width}%` : '30%';
     box.style.height = height ? `${height}%` : '40%';
-    box.style.backgroundColor = color ? color : 'blue';
-    box.style.borderRadius = borderRadius ? `${borderRadius}px` : '10px';
+    box.style.backgroundColor = color ? color : randomColor;
+    box.style.borderRadius = borderRadius ? `${borderRadius}px` : '50px';
 }
 
 function resetBox() {
