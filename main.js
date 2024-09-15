@@ -12,7 +12,7 @@ function updateBox() {
     box.style.borderRadius = borderRadius ? `${borderRadius}px` : '50px';
 }
 
-function resetBox() {
+function reset() {
     const box = document.getElementById('box');
     
 
